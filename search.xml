@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>git的使用</title>
+      <link href="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="git的使用"><a href="#git的使用" class="headerlink" title="git的使用"></a>git的使用</h1><blockquote><h2 id="上传文件"><a href="#上传文件" class="headerlink" title="上传文件"></a>上传文件</h2></blockquote><ul><li>初始化，创建本地仓库</li></ul><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520133526237.png" alt="image-20220520133526237"></p><blockquote><h2 id="初始化-命令：-git-init"><a href="#初始化-命令：-git-init" class="headerlink" title="初始化 命令： git init"></a>初始化 命令： git init</h2></blockquote><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520133610542.png" alt="image-20220520133610542"></p><ul><li>将本地文件添加到本地仓库</li></ul><blockquote><h2 id="添加本次仓库命令：-git-add"><a href="#添加本次仓库命令：-git-add" class="headerlink" title="添加本次仓库命令： git add ."></a>添加本次仓库命令： git add .</h2></blockquote><p><strong>注意 add 和 . 之间是有空格的</strong></p><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520133856100.png" alt="image-20220520133856100"></p><ul><li>添加注释  作用为提交暂存区的文件（也就是上一步添加的文件） 后面双引号内可以填写关于提交的注释信息。</li></ul><blockquote><h2 id="添加注释的命令：git-commit-m-“-“"><a href="#添加注释的命令：git-commit-m-“-“" class="headerlink" title="添加注释的命令：git commit -m “ “"></a>添加注释的命令：git commit -m “ “</h2></blockquote><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134130092.png" alt="image-20220520134130092"></p><ul><li>添加远程仓库，打开gitee 或者 github 新建仓库</li></ul><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134255675.png" alt="image-20220520134255675"></p><ul><li><p>建立本地仓库和远程仓库的关联</p><ul><li><p>复制新建仓库的地址</p><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134512013.png" alt="image-20220520134512013"></p></li></ul></li></ul><p><strong>关联</strong></p><blockquote><h2 id="关联的命令-git-remote-add-origin-后面是新建仓库的地址"><a href="#关联的命令-git-remote-add-origin-后面是新建仓库的地址" class="headerlink" title="关联的命令:  git remote add origin  后面是新建仓库的地址"></a>关联的命令:  git remote add origin  后面是新建仓库的地址</h2></blockquote><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134605087.png" alt="image-20220520134605087"></p><ul><li>同步仓库内容 本地仓库和远程仓库的内容是一样的</li></ul><blockquote><h2 id="同步仓库命令：git-pull-–rebase-origin-master"><a href="#同步仓库命令：git-pull-–rebase-origin-master" class="headerlink" title="同步仓库命令：git pull –rebase origin master"></a>同步仓库命令：git pull –rebase origin master</h2></blockquote><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134734791.png" alt="image-20220520134734791"></p><ul><li>上传文件</li></ul><blockquote><h2 id="上传命令：git-push-u-origin-master"><a href="#上传命令：git-push-u-origin-master" class="headerlink" title="上传命令：git push -u origin master"></a>上传命令：git push -u origin master</h2></blockquote><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134850683.png" alt="image-20220520134850683"></p><p>上传成功后看远程仓库</p><p><img src="/2022/05/22/git%E7%9A%84%E4%BD%BF%E7%94%A8/Typora\typora-user-images\image-20220520134945284.png" alt="image-20220520134945284"></p><ul><li>如果 git push -u origin master出错 如下图</li></ul><blockquote><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2></blockquote><ul><li>先输入命令 git pull –rebase origin master</li></ul><ul><li><p>再上传文件 命令： git push origin master</p></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/05/18/hello-world/"/>
       <url>/2022/05/18/hello-world/</url>
